@@ -40,7 +40,7 @@ const Assistant: React.FC = () => {
     const botMsg: ChatMessage = {
       id: (Date.now() + 1).toString(),
       role: 'model',
-      text: responseText,
+      text: response,
       timestamp: new Date()
     };
 
