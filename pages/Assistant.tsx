@@ -35,7 +35,7 @@ const Assistant: React.FC = () => {
     setLoading(true);
 
     const context = `User: ${user?.name}, Role: ${user?.role}, Level: ${user?.level}, XP: ${user?.xp}`;
-    const responseText = await generateHRResponse(userMsg.text, context);
+    //const responseText = await generateHRResponse(userMsg.text, context);
 
     const botMsg: ChatMessage = {
       id: (Date.now() + 1).toString(),
