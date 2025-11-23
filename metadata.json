@@ -1,0 +1,9 @@
+{
+  "name": "Employee Management System",
+  "description": "An enterprise-grade employee management system featuring role-based dashboards, AI-powered HR assistance, attendance tracking with geolocation, and gamified employee engagement.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
