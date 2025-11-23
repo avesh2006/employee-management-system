@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { generateHRResponse } from '../services/geminiService';
+ //import { generateHRResponse } from '../services/geminiService';
 import { ChatMessage } from '../types';
 import { Send, Bot, User, Loader2, Sparkles } from 'lucide-react';
 
